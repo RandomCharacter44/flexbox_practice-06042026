@@ -1,0 +1,90 @@
+
+/* body styling */
+
+body {
+    background-color: darkviolet;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    /* font-size:1.2em; */
+    gap:25px;
+}
+
+/* body styling */
+
+
+
+/* styling of nested top left and right boxes */
+
+.top-left-and-right-boxes-align {
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+/* styling of nested top left and right boxes */
+
+
+
+/* styling of top left boxes */
+
+.top-left-boxes, 
+.top-right-boxes {
+    display:flex;
+    flex-direction: column;
+    flex-basis:50%;
+    gap:25px;
+}
+
+.top-left-box-one {
+    background-color: pink;
+    height:20vh;
+}
+
+.top-left-box-two {
+    background-color: green;
+    height:15vh;
+}
+
+.top-left-box-three {
+    background-color: orange;
+    height:25vh;
+}
+
+/* styling of top left boxes */
+
+
+
+/* styling of top right boxes */
+
+.top-right-box-one {
+    background-color: green;
+    height:25vh;
+}
+
+.top-right-box-two {
+    background-color: orange;
+    height:20vh;
+}
+
+.top-right-box-three {
+    background-color: pink;
+    height:15vh;
+}
+
+/* styling of top right boxes */
+
+
+
+/* styling of footer box */
+
+.footer-box {
+    display:flex;
+    flex-direction: column;
+    height:30vh;
+    background-color: violet;
+}
+
+/* styling of footer box */
